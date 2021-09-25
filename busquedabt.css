@@ -80,7 +80,7 @@
 }
 .bsq-pj input:checked + label .bsqpj-cont .bsqpj-tit {
   height: 55px;
-  background: #333;
+  background: #222;
 }
 .bsqpj-tit b {
   font-size: 20px;
