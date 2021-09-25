@@ -40,7 +40,7 @@
 .bsq-pj input[type="radio"]:checked + label .bsqpj-cont {
   height: 260px;
 }
-.bsq-pj input[type="radio"]:not(checked) + label .bsqpj-cont {
+.bsqpj-cont {
   height: 100px;
 }
 .bsqpj-icon > i {
@@ -49,7 +49,7 @@
   position: absolute;
   left: -15px;
 }
-.bsq-pj input[type="radio"]:not(checked) + label .bsqpj-cont .bsqpj-icon i {
+.bsqpj-icon i {
   bottom: -300px;
 }
 .bsq-pj input[type="radio"]:checked + label .bsqpj-cont .bsqpj-icon i {
@@ -72,19 +72,17 @@
   color: #fff;
   text-shadow: 0 0 1px #444444aa;
 }
-.bsq-pj input[type="radio"]:not(checked) + label .bsqpj-cont .bsqpj-tit {
+.bsqpj-tit {
   height: 100px;
   text-align: center;
   justify-content: center;
+  text-align: center;
 }
-.bsq-pj input[type="radio"]:checked + label .bsqpj-cont .bsqpj-tit {
+.bsq-pj input:checked + label .bsqpj-cont .bsqpj-tit {
   height: 55px;
   background: #333;
 }
-.bsq-pj input[type="radio"]:not(checked) + label .bsqpj-cont .bsqpj-tit > div {
-  left: 0;
-}
-.bsq-pj input[type="radio"]:not(checked) + label .bsqpj-cont .bsqpj-tit b {
+.bsqpj-tit b {
   font-size: 20px;
   color: #fff;
 }
@@ -101,6 +99,7 @@
 }
 .bsqpj-tit > div {
   position: relative;
+  left: 0;
 }
 .bsqpj-con {
   width: 250px;
