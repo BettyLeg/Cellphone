@@ -1,8 +1,13 @@
 .bsq-pj {
-  width: 450px;
-  border: 1px solid #ddd;
-  margin: 10px auto;
-  overflow: hidden;
+    width: 450px;
+    border: 1px solid rgb(221, 221, 221);
+    margin: 10px auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fafafa;
+    outline: 6px solid #fff;
+    outline-offset: -19px;
+  text-transform:initial;
 }
 .bsq-pj > label {
   display: block;
@@ -99,7 +104,7 @@ input[type="radio"]:checked + label .bsqpj-cont .bsqpj-tit b {
 input[type="radio"]:checked + label .bsqpj-cont .bsqpj-tit > div {
   font-size: 12px;
   line-height: 13px;
-  left: -80px;
+  left: -100px;
   text-align: left;
 }
 
